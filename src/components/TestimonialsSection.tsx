@@ -16,7 +16,7 @@ const testimonials = [{
   quote: "The team's dedication and expertise have helped us navigate complex challenges with confidence."
 }];
 export function TestimonialsSection() {
-  return <section className="py-20 bg-gray-50">
+  return <section className="py-20 bg-gray-50" id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-16">
           What Our Clients Say

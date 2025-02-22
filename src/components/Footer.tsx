@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Twitter, Mail } from "lucide-react";
+import { Facebook, Twitter, Mail, Instagram } from "lucide-react";
 export function Footer() {
   return <footer className="bg-[#A01E3F] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -29,7 +29,7 @@ export function Footer() {
             <div className="flex space-x-4">
               <Facebook className="h-6 w-6 text-gray-300 hover:text-white cursor-pointer" />
               <Twitter className="h-6 w-6 text-gray-300 hover:text-white cursor-pointer" />
-              <div className="h-6 w-6 text-gray-300 hover:text-white cursor-pointer" />
+              <Instagram className="h-6 w-6 text-gray-300 hover:text-white cursor-pointer" />
               <Mail className="h-6 w-6 text-gray-300 hover:text-white cursor-pointer" />
             </div>
           </div>

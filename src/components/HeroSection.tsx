@@ -1,6 +1,6 @@
 import React from "react";
 export function HeroSection() {
-  return <section className="relative h-screen w-full bg-cover bg-center" style={{
+  return <section className="relative h-screen w-full bg-cover bg-center" id="about us" style={{
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3')`
   }}>
       <div className="absolute inset-0 bg-black opacity-50"></div>

@@ -1,19 +1,19 @@
 import React from 'react';
 const blogPosts = [{
-  image: 'https://images.unsplash.com/photo-1664575602554-2087b04935a5?ixlib=rb-4.0.3',
+  image: 'https://images.unsplash.com/photo-1701318134822-fcc7630206ed?ixlib=rb-4.0.3',
   title: 'The Future of Business Technology',
   description: 'Explore the latest trends shaping the future of business technology and digital transformation.'
 }, {
-  image: 'https://images.unsplash.com/photo-1664575600397-88e8b7258d8e?ixlib=rb-4.0.3',
+  image: 'https://images.unsplash.com/photo-1701318134822-fcc7630206ed?ixlib=rb-4.0.3',
   title: 'Sustainable Business Practices',
   description: 'Learn how implementing sustainable practices can benefit your business and the environment.'
 }, {
-  image: 'https://images.unsplash.com/photo-1664575600850-cfcfe6163c0f?ixlib=rb-4.0.3',
+  image: 'https://images.unsplash.com/photo-1701318134822-fcc7630206ed?ixlib=rb-4.0.3',
   title: 'Leadership in Modern Business',
   description: "Discover essential leadership skills needed to succeed in today's business landscape."
 }];
 export function BlogSection() {
-  return <section className="py-20">
+  return <section className="py-20" id="blog">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-16">
           Latest Insights
